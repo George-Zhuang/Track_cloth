@@ -1,0 +1,28 @@
+.vscode/
+.asset/
+output/
+build/
+*/__pycache__/
+*.pyx
+*.pyc
+
+# data
+data/cloth/
+data/demo/det_res
+data/demo/images
+data/demo/track_res
+groundingdino.egg-info/
+weights/*/*.pth
+
+# logs
+screenlog*
+*.log
+
+# trackers
+tracker/deepsort_tracker
+tracker/iou_tracker
+tracker/motdt_tracker
+tracker/ocsort_tracker
+
+# zip files
+*.zip
